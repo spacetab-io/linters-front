@@ -1,0 +1,50 @@
+{
+  "name": "@spacetabs/stylelint-config-spacetab-io",
+  "version": "0.0.1",
+  "description": "Stylelint config. Rules combinations for stylelint linter.",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "Spacetab Stylelint Config",
+    "spacetab",
+    "stylelint config",
+    "styles code",
+    "styles code checker",
+    "styles code linter",
+    "styles code standards",
+    "styles code style",
+    "stylelint",
+    "stylelint-config",
+    "standard",
+    "lint",
+    "quality",
+    "style",
+    "style checker",
+    "style linter"
+  ],
+  "bugs": {
+    "url": "https://github.com/spacetabs/linters-front/issues"
+  },
+  "homepage": "https://github.com/spacetabs/linters-front",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacetabs/linters-front"
+  },
+  "devDependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-declaration-use-variable": "^1.7.0",
+    "stylelint-scss": "^3.9.3"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 10.1.0",
+    "stylelint-config-recess-order": ">=2.0.3",
+    "stylelint-config-standard": ">=18.3.0",
+    "stylelint-declaration-use-variable": ">=1.7.0",
+    "stylelint-scss": ">=3.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
