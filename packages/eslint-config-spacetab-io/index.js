@@ -68,6 +68,7 @@ module.exports = {
             extends: ['plugin:vue/base'],
             rules: {
                 ...require('./rules/javascript.js'),
+                ...require('./rules/typescript-reset.js'),
                 ...require('./rules/typescript.js'),
                 ...require('./rules/vue-typescript-reset.js'),
                 ...require('./rules/vue-reset.js'),
