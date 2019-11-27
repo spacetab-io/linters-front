@@ -30,6 +30,7 @@ module.exports = {
         // .vue (all)
         {
             files: ['*.vue'],
+            extends: ['plugin:vue/base'],
             plugins: [
                 'vue',
             ],
@@ -44,6 +45,7 @@ module.exports = {
                 parser: '@typescript-eslint/parser',
             },
             files: ['*.js.vue'],
+            extends: ['plugin:vue/base'],
             rules: {
                 ...require('./rules/vue-html.js'),
                 ...require('./rules/javascript.js'),
@@ -63,6 +65,7 @@ module.exports = {
                 'import',
                 'simple-import-sort',
             ],
+            extends: ['plugin:vue/base'],
             rules: {
                 ...require('./rules/javascript.js'),
                 ...require('./rules/typescript.js'),
