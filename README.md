@@ -66,7 +66,7 @@ After previous operations add this to your eslint configuration.
 }
 ```
 
-[⬆ Go top](#content)
+[⬆ Go top](#linting-configs-by-spacetabio)
 
 ------
 
@@ -88,13 +88,13 @@ Next, install all peer dependencies. The easiest way is to add this lines to you
 }
 ```
 
+After previous operations add this to your eslint configuration.
 ```json
 {
   "extends": ["@spacetabs/stylelint-config-spacetab-io"]
 }
 ```
 
-After previous operations add this to your eslint configuration.
 **PROFIT!** Now you can use our stylelint configuration in your awesome projects!
 
-[⬆ Go top](#content)
+[⬆ Go top](#linting-configs-by-spacetabio)
