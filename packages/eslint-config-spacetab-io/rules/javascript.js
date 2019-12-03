@@ -420,7 +420,7 @@ module.exports = {
     'import/no-deprecated': 'error',
     'import/no-extraneous-dependencies': 'off',
     'import/no-mutable-exports': 'error',
-    'import/unambiguous': 'error',
+    'import/unambiguous': 'off',
     'import/no-commonjs': 'off',
     'import/no-amd': 'off',
     'import/no-nodejs-modules': 'off',
@@ -438,6 +438,7 @@ module.exports = {
             'type': 'always',
             'old': 'always',
             'png': 'always',
+            'svg': 'always',
             '.js.vue': 'always',
             'vue': 'ignorePackages'
         }
