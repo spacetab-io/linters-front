@@ -425,7 +425,7 @@ module.exports = {
     'import/no-amd': 'off',
     'import/no-nodejs-modules': 'off',
     'import/first': 'error',
-    'import/exports-last': 'error',
+    'import/exports-last': 'off',
     'import/no-namespace': 'off',
     'import/extensions': [
         'error',
