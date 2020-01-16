@@ -83,6 +83,17 @@ Usage:
 
 > Also, If you have typescript and javascript `.vue` files. You can change the extension from `.vue` to `.js.vue`. Linter will check code in these components like a javascript.
 
+
+#### vue javascript only
+> Combined `vue-html` and `javascript` rules
+
+Usage:
+```json
+{
+  "extends": ["@spacetabs/eslint-config-spacetab-io/vue-javascript"]
+}
+```
+
 #### only vue html
 Usage:
 ```json
