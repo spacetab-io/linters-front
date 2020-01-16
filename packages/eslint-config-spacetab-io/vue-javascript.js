@@ -25,9 +25,9 @@ module.exports = {
                 allowImportExportEverywhere: false
             },
             extends: ['plugin:vue/base'],
-            rules: [
+            rules: {
                 ...require('./rules/vue-html.js'),
-            ],
+            },
         }
     ]
 };
