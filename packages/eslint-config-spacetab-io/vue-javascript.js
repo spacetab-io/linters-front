@@ -2,28 +2,23 @@ module.exports = {
     plugins: [
         'import',
         'simple-import-sort',
-        'vue',
     ],
+    parser: 'babel-eslint',
     rules: {
         ...require('./rules/javascript.js'),
     },
-    parser: 'babel-eslint',
     overrides: [
         {
             files: ['*.vue'],
             parser: 'vue-eslint-parser',
             parserOptions: {
                 parser: 'babel-eslint',
-                ecmaVersion: 2019,
-                sourceType: 'module',
-                ecmaFeatures: {
-                    globalReturn: false,
-                    impliedStrict: true,
-                    jsx: false
-                },
-                requireConfigFile: false,
-                allowImportExportEverywhere: false
             },
+            plugins: [
+                'import',
+                'simple-import-sort',
+                'vue',
+            ],
             extends: ['plugin:vue/base'],
             rules: {
                 ...require('./rules/vue-html.js'),
