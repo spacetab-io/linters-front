@@ -8,7 +8,7 @@
 
 First, what you need is to install npm package.
 ```bash
-npm install --save-dev @spacetabs/eslint-config-spacetab-io
+npm install --save-dev @spacetab-io/eslint-config-spacetab-io
 ```
 
 Next, install all peer dependencies. The easiest way is to add this lines to your `devDependensies`
@@ -25,7 +25,7 @@ Next, install all peer dependencies. The easiest way is to add this lines to you
 After previous operations add this to your eslint configuration.
 ```json
 {
-  "extends": ["@spacetabs/stylelint-config-spacetab-io"]
+  "extends": ["@spacetab-io/stylelint-config-spacetab-io"]
 }
 ```
 

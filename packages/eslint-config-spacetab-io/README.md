@@ -12,7 +12,7 @@
 
 First, what you need is to install npm package.
 ```bash
-npm install --save-dev @spacetabs/eslint-config-spacetab-io
+npm install --save-dev @spacetab-io/eslint-config-spacetab-io
 ```
 
 Next, install all peer dependencies. The easiest way is to add this lines to your `devDependensies`
@@ -35,7 +35,7 @@ After previous operations add this to your eslint configuration.
 ```json
 {
   "extends": [
-    "@spacetabs/eslint-config-spacetab-io"
+    "@spacetab-io/eslint-config-spacetab-io"
   ],
   "parserOptions": {
     "project": "./tsconfig.json",
@@ -56,7 +56,7 @@ After previous operations add this to your eslint configuration.
     "extraFileExtensions": [".vue"]
   },
   "extends": [
-    "@spacetabs/eslint-config-spacetab-io"
+    "@spacetab-io/eslint-config-spacetab-io"
   ]
 }
 ```
@@ -77,7 +77,7 @@ After previous operations add this to your eslint configuration.
 Usage:
 ```json
 {
-  "extends": ["@spacetabs/eslint-config-spacetab-io"]
+  "extends": ["@spacetab-io/eslint-config-spacetab-io"]
 }
 ```
 
@@ -90,7 +90,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@spacetabs/eslint-config-spacetab-io/vue-javascript"]
+  "extends": ["@spacetab-io/eslint-config-spacetab-io/vue-javascript"]
 }
 ```
 
@@ -98,7 +98,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@spacetabs/eslint-config-spacetab-io/vue-html"]
+  "extends": ["@spacetab-io/eslint-config-spacetab-io/vue-html"]
 }
 ```
 
@@ -106,7 +106,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@spacetabs/eslint-config-spacetab-io/typescript"]
+  "extends": ["@spacetab-io/eslint-config-spacetab-io/typescript"]
 }
 ```
 
@@ -114,7 +114,7 @@ Usage:
 Usage:
 ```json
 {
-  "extends": ["@spacetabs/eslint-config-spacetab-io/javascript"]
+  "extends": ["@spacetab-io/eslint-config-spacetab-io/javascript"]
 }
 ```
 

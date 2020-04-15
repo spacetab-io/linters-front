@@ -1,6 +1,6 @@
 {
-  "name": "@spacetabs/stylelint-config-spacetab-io",
-  "version": "0.0.1",
+  "name": "@spacetab-io/stylelint-config-spacetab-io",
+  "version": "0.1.0",
   "description": "Stylelint config. Rules combinations for stylelint linter.",
   "main": "index.js",
   "license": "MIT",
