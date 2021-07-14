@@ -12,7 +12,7 @@
 
 First, what you need is to install npm package.
 ```bash
-npm install --save-dev @spacetab-io/eslint-config-spacetab-io
+npm install --save-dev @spacetab-io/eslint-config-spacetab-io@0.1.0
 ```
 
 Next, install all peer dependencies. The easiest way is to add this lines to your `devDependensies`
