@@ -19,7 +19,7 @@ module.exports = {
                 'simple-import-sort',
                 'vue',
             ],
-            extends: ['plugin:vue/base'],
+            extends: ['plugin:vue/vue3-essential'],
             rules: {
                 ...require('./rules/vue-html.js'),
             },
