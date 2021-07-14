@@ -292,8 +292,17 @@ module.exports = {
             'newIsCap': true,
             'capIsNew': true,
             'properties': true,
-            'capIsNewExceptions': ['Prop', 'Watch', 'Component'],
-            'capIsNewExceptionPattern': '.*[Action|Getter|State]$'
+            'capIsNewExceptions': [
+                'Prop',
+                'Watch',
+                'Component',
+                'Options',
+                'Mixin',
+                'Action',
+                'Getter',
+                'State',
+                'Mutation',
+            ],
         }
     ],
     'new-parens': 'error',
@@ -400,7 +409,8 @@ module.exports = {
     'sort-imports': 'off', // reset
     'import/order': 'off', // reset
 
-    'simple-import-sort/sort': 'error',
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
     'import/no-unresolved': 'off',
     // 'import/named': 'error',
     'import/namespace': 'error',

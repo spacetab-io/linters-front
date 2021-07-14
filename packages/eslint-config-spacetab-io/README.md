@@ -1,5 +1,9 @@
 # Eslint config by spacetab.io
 
+**Now supports Vue 3!**
+
+For Vue 2 use [0.1.0 version](https://github.com/spacetab-io/linters-front/tree/0.1.0/packages/eslint-config-spacetab-io) of this library.
+
 > Programs must be written for people to read, and only incidentally for machines to execute. 
 > ###### Harold Abelson
 
@@ -18,17 +22,22 @@ npm install --save-dev @spacetab-io/eslint-config-spacetab-io
 Next, install all peer dependencies. The easiest way is to add this lines to your `devDependensies`
 ```json
 {
-  "eslint": "^6.6.0",
-  "@typescript-eslint/parser": "^2.9.0",
-  "eslint-plugin-import": "^2.18.2",
-  "eslint-plugin-simple-import-sort": "^4.0.0",
-  "eslint-plugin-vue": "^6.0.0",
-  "@typescript-eslint/eslint-plugin": "^2.6.1",
-  "@vue/eslint-config-typescript": "^4.0.0",
-  "vue-eslint-parser": "^7.0.0",
-  "typescript": "^3.6.4",
-  "babel-eslint": "^10.0.3"
+  "eslint": "^6.7.2",
+  "eslint-plugin-import": "^2.20.2",
+  "eslint-plugin-simple-import-sort": "^7.0.0",
+  "eslint-import-resolver-webpack": "^0.13.1",
+  "eslint-plugin-vue": "^7.0.0",
+  "@typescript-eslint/eslint-plugin": "^4.18.0",
+  "@typescript-eslint/parser": "^4.18.0",
+  "@vue/eslint-config-typescript": "^7.0.0",
+  "vue-eslint-parser": "^7.8.0",
+  "typescript": "~4.1.5",
+  "babel-eslint": "^10.1.0"
 }
+```
+
+```bash
+npm install --save-dev eslint@^6.7.2 eslint-plugin-import@^2.20.2 eslint-plugin-simple-import-sort@^7.0.0 eslint-import-resolver-webpack@^0.13.1 eslint-plugin-vue@^7.0.0 @typescript-eslint/eslint-plugin@^4.18.0 @typescript-eslint/parser@^4.18.0 @vue/eslint-config-typescript@^7.0.0 vue-eslint-parser@~4.1.5 babel-eslint@^10.1.0
 ```
 
 After previous operations add this to your eslint configuration.

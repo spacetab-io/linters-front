@@ -2,7 +2,7 @@ module.exports = {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': ['error', { 'default': 'array-simple' }],
     '@typescript-eslint/await-thenable': 'off',
-    '@typescript-eslint/ban-ts-ignore': 'error',
+    '@typescript-eslint/ban-ts-comment': 'error',
     '@typescript-eslint/ban-types': [
         'error',
         {
@@ -16,8 +16,15 @@ module.exports = {
         }
     ],
     '@typescript-eslint/brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
-    '@typescript-eslint/camelcase': ['error', { 'properties': 'never' }],
-    '@typescript-eslint/class-name-casing': 'error',
+    '@typescript-eslint/naming-convention': [
+        'error',
+        { 'selector': 'variableLike', 'format': ['camelCase'] },
+        { 'selector': 'memberLike', 'format': ['camelCase'] },
+        { 'selector': 'typeLike', 'format': ['PascalCase'] },
+        { 'selector': 'property', 'format': ['camelCase'] },
+        { 'selector': 'method', 'format': ['camelCase'] },
+        { "selector": "variable", "modifiers": ["const"], "format": ['camelCase', "UPPER_CASE"]}
+    ],
     '@typescript-eslint/consistent-type-assertions': [
         'error',
         {
@@ -37,7 +44,6 @@ module.exports = {
     '@typescript-eslint/func-call-spacing': ['error', 'never'],
     '@typescript-eslint/generic-type-naming': 'off',
     '@typescript-eslint/indent': ['error', 2, { 'SwitchCase': 1 }],
-    '@typescript-eslint/interface-name-prefix': ['error', 'never'],
     '@typescript-eslint/member-delimiter-style': 'error',
     '@typescript-eslint/member-naming':	'off',
     '@typescript-eslint/member-ordering': 'error',

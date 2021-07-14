@@ -12,7 +12,7 @@ module.exports = {
         requireConfigFile: false,
         allowImportExportEverywhere: false
     },
-    extends: ['plugin:vue/base'],
+    extends: ['plugin:vue/vue3-essential'],
     plugins: ['vue'],
     rules: require('./rules/vue-html.js'),
 };
