@@ -1,6 +1,6 @@
 {
   "name": "@spacetab-io/eslint-config-spacetab-io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config with best practices. Selected better config rules combinations for eslint linter.",
   "main": "index.js",
   "license": "MIT",
